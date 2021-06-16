@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Meerkat\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Meerkat\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Tetris_SRS.-1115859586.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Meerkat\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Meerkat\Desktop\Tetris_SRS\Tetris_SRS" t="IncludeRecursive">
+      <e p="Assets" t="Include">
+        <e p="Script" t="Include">
+          <e p="Tests" t="Include">
+            <e p="EditModeTest" t="Include">
+              <e p="EditModeTests.asmdef" t="Include" />
+              <e p="EidtModeTest.cs" t="Include" />
+            </e>
+            <e p="PlayModeTests" t="Include">
+              <e p="PlayModeTest.cs" t="Include" />
+              <e p="PlayModeTests.asmdef" t="Include" />
+            </e>
+          </e>
+          <e p="Tetris.asmdef" t="Include" />
+          <e p="Tetris.cs" t="Include" />
+          <e p="Tetris.Test.cs" t="Include" />
+          <e p="TetrisBlock.cs" t="Include" />
+          <e p="TetrisImage.cs" t="Include" />
+          <e p="TetrisManager.cs" t="Include" />
+          <e p="TetrisState.cs" t="Include" />
+          <e p="TetrisView.cs" t="Include" />
+          <e p="TetrisViewHorizon.cs" t="Include" />
+          <e p="TetrisViewVertical.cs" t="Include" />
+        </e>
+      </e>
+      <e p="EditModeTests.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="PlayModeTests.csproj" t="IncludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="Tetris.csproj" t="IncludeRecursive" />
+      <e p="Tetris_SRS.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

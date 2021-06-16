@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>2021-06-14 - PM 7:59:52</Generatedon>
+    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
+    <Assemblies>3</Assemblies>
+    <Classes>20</Classes>
+    <Files>11</Files>
+    <Coveredlines>119</Coveredlines>
+    <Uncoveredlines>616</Uncoveredlines>
+    <Coverablelines>735</Coverablelines>
+    <Totallines>1247</Totallines>
+    <Linecoverage>16.1</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+  </Summary>
+  <Coverage>
+    <Assembly name="EditModeTests" classes="1" coverage="100" coveredlines="35" coverablelines="35" totallines="72" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="Test.EditModeTest" coverage="100" coveredlines="35" coverablelines="35" totallines="72" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="PlayModeTests" classes="1" coverage="100" coveredlines="5" coverablelines="5" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="PlayModeTest" coverage="100" coveredlines="5" coverablelines="5" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="Tetris" classes="18" coverage="11.3" coveredlines="79" coverablelines="695" totallines="4654" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="JaeHeum.BlockI" coverage="5.2" coveredlines="2" coverablelines="38" totallines="488" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.BlockJ" coverage="0" coveredlines="0" coverablelines="38" totallines="488" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.BlockL" coverage="0" coveredlines="0" coverablelines="38" totallines="488" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.BlockO" coverage="0" coveredlines="0" coverablelines="38" totallines="488" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.BlockS" coverage="0" coveredlines="0" coverablelines="38" totallines="488" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.BlockT" coverage="0" coveredlines="0" coverablelines="38" totallines="488" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.BlockZ" coverage="0" coveredlines="0" coverablelines="38" totallines="488" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.CreateBlock" coverage="33.3" coveredlines="3" coverablelines="9" totallines="144" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.DropBlock" coverage="0" coveredlines="0" coverablelines="42" totallines="144" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.EndGame" coverage="50" coveredlines="4" coverablelines="8" totallines="144" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.InitGame" coverage="37.5" coveredlines="3" coverablelines="8" totallines="144" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.PutOnBlock" coverage="17.6" coveredlines="3" coverablelines="17" totallines="144" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.Tetris" coverage="22.5" coveredlines="64" coverablelines="284" totallines="376" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.TetrisImage" coverage="0" coveredlines="0" coverablelines="6" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.TetrisManager" coverage="0" coveredlines="0" coverablelines="12" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.TetrisView" coverage="0" coveredlines="0" coverablelines="7" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.TetrisViewHorizon" coverage="0" coveredlines="0" coverablelines="19" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="JaeHeum.TetrisViewVertical" coverage="0" coveredlines="0" coverablelines="17" totallines="36" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

@@ -15,9 +15,9 @@ namespace JaeHeum
             Right,
         }
 
-        private const int PanelSettingHeight = 2;
-        private const int PanelHeight = 22;
-        private const int PanelWidth = 10;
+        public const int PanelSettingHeight = 2;
+        public const int PanelHeight = 22;
+        public const int PanelWidth = 10;
         private GameState<Tetris> _gameState;
         private IBlock _currentBlock;
         private List<IBlock> _blockList = new List<IBlock>();
@@ -74,6 +74,7 @@ namespace JaeHeum
                 for (int j = 0; j < PanelWidth; j++)
                 {
                     _blockPanelData[i, j] = 0;
+                    _blockStackOnlyData[i, j] = 0;
                 }
             }
         }
@@ -83,7 +84,7 @@ namespace JaeHeum
             var random = new Random();
             var number = random.Next(0, _blockList.Count);
 
-            SetCurrentBlockBlock(number);
+            SetCurrentBlock(number);
         }
 
         public void CreateBlock()
@@ -135,7 +136,7 @@ namespace JaeHeum
             success = true;
         }
 
-        public void RotateBlock()
+        public bool RotateBlock()
         {
             _currentBlock.Rotation();
             SetBlockData(out var isSet);
@@ -143,6 +144,8 @@ namespace JaeHeum
             {
                 _currentBlock.ReverseRotation();
             }
+
+            return isSet;
         }
 
         public void MoveBlockHorizon(Direction direction)
@@ -305,7 +308,7 @@ namespace JaeHeum
             Debug.Log(sb.ToString());
         }
 
-        private void SetCurrentBlockBlock(int number)
+        private void SetCurrentBlock(int number)
         {
             _currentBlock = (BlockKind) number switch
             {

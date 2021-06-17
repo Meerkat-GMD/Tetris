@@ -37,7 +37,7 @@ namespace JaeHeum
     {
         private int width = 4;
         private int height = 4;
-        public int[,] blockShape;
+        private int[,] blockShape;
 
         public void Create()
         {
